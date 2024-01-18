@@ -1,0 +1,56 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .app-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidenav {
+    width: 100px;
+    background-color: #6E260E;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .sidenav ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .sidenav li {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .sidenav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .sidenav a:hover {
+    background-color: #555;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  /* Add some styles for links in the main content if needed */
+  .main-content a {
+    text-decoration: underline;
+    color: #333;
+  }
+  
